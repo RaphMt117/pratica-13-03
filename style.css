@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Grape+Nuts&family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root {
+    --cor-primaria: #101010;
+    --cor-secundaria: #ffffe8;
+    --cor-terciaria: #ffc67c;
+    --cor-hover: #272727;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.titulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 1.3rem;
+    font-family: cursive;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao {
+    padding: 5% 10%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.image__ {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.imagem {
+    border: var(--cor-terciaria);
+    padding: 15px;
+    border-radius: 100%;
+    border-style: outset;
+    text-align: center;
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    padding: 22px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
